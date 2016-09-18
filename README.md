@@ -16,5 +16,4 @@ $ npm start
 Licensed under the MIT License
 
 ## Authors
--
 Copyright(c) 2016 Chuck Yang <<chuck.yang@hackathon.tw>>
