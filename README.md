@@ -10,7 +10,7 @@ $ npm install .
 $ npm build
 
 # Start application
-$ npm run dev
+$ npm start
 ```
 ## License
 Licensed under the MIT License
