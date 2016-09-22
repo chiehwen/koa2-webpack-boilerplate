@@ -7,7 +7,7 @@ const CONFIG = {
   PATH: path.resolve(__dirname, 'build')
 }
 
-var nodeModules = {};
+const nodeModules = {};
 
 fs.readdirSync('node_modules')
   .filter(function(x) {
@@ -38,7 +38,7 @@ module.exports = {
       loader: 'babel',
       // query 用於向 loader 傳遞參數，不同的 loader 接收的參數同
       query: {
-        presets: ['es2015', 'stage-3']
+        presets: ['es2015', 'es2017']
       }
     }]
   },
